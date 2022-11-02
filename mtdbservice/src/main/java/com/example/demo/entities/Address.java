@@ -9,7 +9,6 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class Address {
-	//commented
 	@Id
 	@GeneratedValue(generator = "uuid2")
 	@GenericGenerator(name="uuid2", strategy = "org.hibernate.id.UUIDGenerator")
